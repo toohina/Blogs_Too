@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogsToo</title>
+</head>
+
+<body>
+    <h1>
+        <img src="./assets/icons/git.png" width="30" /> Git and
+        <img src="./assets/icons/github.png" width="30" /> Github
+    </h1>
+
+    <h2>Git commands</h2>
+    <p>So I explored the following commands BY making a lot of mistakes and committing a few crimes.</p>
+    <p>I was following a tutorial and entered the following command in git bash:</p>
+    <p>git remote origin add www.github.com/myprofile/myreponame and</p>
+    <p>git remote master add htttps://github.com/myprofile/myreponame</p>
+    <p>You DON'T name your repository as master. That is just dumb.</p>
+    <p>(I know, I know, I know, don't judge me, I still get confused because I do not have my basics clear.')</p>
+
+
+    <h3>The Diagnosis of the above scenario</h3>
+    <p>When we write:</p>
+    <p><strong>git remote add origin [url]</strong></p>
+    <p>It means that we are adding a remote repository of [url] and naming it as "origin".</p>
+    <p><strong>git remote add origin https://github.com/profile/rep.git</strong></p>
+    <p>Do not forget that github remote repo have .git extension in end of repository name.</p>
+
+    <h3>git remote -v</h3>
+    <p>This command displays all the messed up remote repositories you have made</p>
+
+    <h3>git remote remove origin</h3>
+    <p>This command deletes/ removes the messed up remote repository you made.</p>
+</body>
+
+</html>
